@@ -1,0 +1,113 @@
+html {
+ scroll-behavior: smooth;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.img2{
+    height: 500px;
+    width: 500px;
+}
+
+body{
+    text-align: center;
+}
+
+#img1{
+    height: 200px;
+    width: 200px;
+}
+
+#map iframe
+{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+
+#footer{
+  height: 20px;
+  background-color:white;
+  }
+
+input
+{
+    background: grey
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cl_mainDiv
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.cl_mainDiv img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.cl_mainDiv hr
+{
+    width: 100%; 
+}
+
+.cl_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+
+
+#achievementsID{
+ padding-bottom: 10px;
+}
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
